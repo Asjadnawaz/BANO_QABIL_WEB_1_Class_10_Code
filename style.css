@@ -1,0 +1,97 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image: url(./Image/anders-jilden-cYrMQA7a3Wc-unsplash.jpg);
+    background-repeat: none;
+    background-size: cover;
+    height: 100vh;
+   
+}
+
+center h1{
+    font-size: 30px;
+}
+
+
+nav {
+    background-color: white;
+    display: flex;
+    color: black;
+    padding-left: 40px;
+    border-radius: 20px;
+}
+
+nav ul {
+    display: flex;
+    padding: 10px 20px;
+    margin-left: 20px;
+    align-items: center;
+    justify-content: center;
+    margin-left: 1000px;
+}
+
+nav ul li {
+    display: flex;
+    color: black;
+    margin-left: 20px;
+
+}
+
+nav ul li a {
+    color: black;
+    display: flex;
+    list-style: none;
+    text-decoration: none;
+    padding: 10px 10px;
+}
+
+nav ul li a:hover{
+    color: white;
+    background-color: green;
+    border-radius: 3px;
+}
+
+
+form label {
+    font-weight: 500;
+    margin-top: 20px;
+    margin-right: 10px;
+}
+
+form input{
+    width: 200px;
+    height: 30px;
+    border-radius: 5px;
+    border-color: gray;
+    border-width: 1px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+button{
+    margin-top: 20px;
+    background-color: green;
+    color: white;
+    height: 40px;
+    width: 80px;
+    border: none;
+    border-radius: 10px;
+
+}
+
+.ContactForm{
+    width: 500px;
+    height: 470px;
+    border-radius: 20px;
+    margin-top: -10px;
+    background-color: white;
+    box-shadow: 8px 7px 25px rgb(48, 48, 48);
+}
+
+.SubmitButton{
+    height: 40px;
+    width: 140px;
+    font-size: 15px;
+    font-weight: 400;
+    cursor: pointer;
+}
+
